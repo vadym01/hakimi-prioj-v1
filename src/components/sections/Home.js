@@ -128,7 +128,7 @@ function Home() {
           });
         }
       }
-    }, 300);
+    }, 1000);
 
     function handleResize() {
       setState((prevState) => ({
