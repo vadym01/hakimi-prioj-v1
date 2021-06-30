@@ -6,7 +6,7 @@
   width: 100%;
   height: 17vh;
   z-index: 1000;
-  background-color: hsl(0, 1%, 18%);
+  background-color: #fff;
   box-sizing: border-box;
 }
 
@@ -23,7 +23,7 @@
   text-align: center;
   font-size: 1em;
   font-family: Arial, Helvetica, sans-serif;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .nav-item {
@@ -42,19 +42,9 @@
   top: 0;
   left: 0;
   z-index: 1;
-  width: 150px;
-  height: 70px;
+  width: 200px;
+  height: 100px;
   cursor: pointer;
-}
-
-#shadow {
-  top: 40px;
-  left: 25px;
-  position: absolute;
-  margin-left: 50px;
-  -webkit-box-shadow: 0px -13px 18px 73px rgba(234, 203, 203, 0.88);
-  -moz-box-shadow: 0px -13px 18px 73px rgba(234, 203, 203, 0.88);
-  box-shadow: 0px -13px 18px 73px rgba(234, 203, 203, 0.88);
 }
 
 .nav-bar-button {
@@ -71,23 +61,9 @@
 }
 
 @media (max-width: 900px) {
-  .nav-bar-container {
-    height: 8vh;
-  }
-
-  #shadow {
-    top: -10px;
-    left: 25px;
-  }
-
-  #logo {
-    width: 130px;
-    height: 50px;
-  }
-
   .nav-bar-list {
     padding-right: 15px;
-    padding-left: 170px;
+    padding-left: 180px;
   }
 
   .nav-bar {
@@ -108,17 +84,6 @@
     right: 0;
     left: auto;
     animation: fadein 1s;
-  }
-
-  #shadow {
-    top: 10%;
-    left: 8%;
-    right: 10%;
-    width: 90%;
-
-    -webkit-box-shadow: 0px -13px 18px 73px rgba(255, 255, 255, 0.88);
-    -moz-box-shadow: 0px -13px 18px 73px rgba(255, 255, 255, 0.88);
-    box-shadow: 0px -13px 18px 73px rgba(255, 255, 255, 0.88);
   }
 
   .nav-bar-list {
@@ -156,7 +121,7 @@
     margin: 0;
     padding: 0;
     cursor: pointer;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 1.5em;
   }
 
@@ -169,13 +134,6 @@
   .nav-bar-container {
     grid-template-rows: 150px 6fr 1fr 1fr;
     width: 100%;
-  }
-
-  #shadow {
-    top: 9.3%;
-    left: 6%;
-    right: 10%;
-    width: 67%;
   }
 
   .nav-bar {

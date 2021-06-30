@@ -12,7 +12,6 @@ const NavBar = () => {
   });
 
   const onNavBarButtonClickHandler = () => {
-    console.log(state.showNavBar);
     setState({
       showNavBar: !state.showNavBar,
     });
@@ -20,7 +19,6 @@ const NavBar = () => {
 
   return (
     <div>
-      {/* {console.log(windowDimensions)} */}
       {!state.showNavBar ? (
         <img
           src={menu_icon}
@@ -40,7 +38,6 @@ const NavBar = () => {
         }
       >
         <div className="logo">
-          <div id="shadow"></div>
           <img src={logo} alt="logo" id="logo" />
         </div>
         <nav className="nav-bar-list">
@@ -120,6 +117,7 @@ const NavBar = () => {
             <li className="nav-item">
               {state.showNavBar ? (
                 <button
+                  id="close-button"
                   onClick={onNavBarButtonClickHandler}
                   className="nav-bar-button"
                 >

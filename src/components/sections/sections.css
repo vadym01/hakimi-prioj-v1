@@ -45,7 +45,8 @@
 
 #out-collection {
   background-color: rgb(255, 255, 255);
-  background: url('/Users/vadym/Documents/work/hakimi/hakimi/src/img/background/GemBldg-de-simonedotcom.jpg');
+  background: url('../../img/background/GemBldg-de-simonedotcom.jpg');
+  /* background: url('/Users/vadym/Documents/work/hakimi/hakimi/src/img/background/GemBldg-de-simonedotcom.jpg'); */
   background-repeat: no-repeat;
   background-position: right top;
   background-size: 50% auto;
@@ -53,7 +54,7 @@
 
 #trade-shows {
   background-color: rgb(255, 255, 255);
-  background: url('/Users/vadym/Documents/work/hakimi/hakimi/src/img/background/GemBldg2.jpg');
+  background: url('../../img/background/GemBldg2.jpg');
   background-repeat: no-repeat;
   background-position: left top;
   background-size: 50% auto;
@@ -61,7 +62,7 @@
 
 #education {
   background-color: rgb(255, 255, 255);
-  background: url('/Users/vadym/Documents/work/hakimi/hakimi/src/img/background/GemBldg3.jpg');
+  background: url('../../img/background/GemBldg3.jpg');
   background-repeat: no-repeat;
   background-position: right top;
   background-size: 50% auto;
@@ -69,7 +70,7 @@
 
 #about-us {
   background-color: rgb(255, 255, 255);
-  background: url('/Users/vadym/Documents/work/hakimi/hakimi/src/img/background/GemTower.jpg');
+  background: url('../../img/background/GemTower.jpg');
   background-repeat: no-repeat;
   background-position: left top;
   background-size: 50% auto;
@@ -77,7 +78,7 @@
 
 #contact-us {
   background-color: rgb(255, 255, 255);
-  background: url('/Users/vadym/Documents/work/hakimi/hakimi/src/img/background/REAL_ESTATE_140809923_AR_-1_LEAMKJIHVXLJ.jpg');
+  background: url('../../img/background/REAL_ESTATE_140809923_AR_-1_LEAMKJIHVXLJ.jpg');
   background-repeat: no-repeat;
   background-position: right top;
   background-size: 50% auto;

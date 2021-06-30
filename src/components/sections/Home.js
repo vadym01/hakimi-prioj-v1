@@ -1,10 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './sections.css';
-// import main_2 from '../../img/300dpi/main_2_300.jpg';
-// import main_1 from '../../img/300dpi/main_1_300.jpg';
-// import main_0 from '../../img/300dpi/main_0_300.png';
-// import main_3 from '../../img/300dpi/main_3_300.jpg';
-// import main_4 from '../../img/300dpi/main_4_300.jpg';
 import main_high_1 from '../../img/300dpi/main_1_300.png';
 import main_high_0 from '../../img/300dpi/main_0_300.jpg';
 import main_high_2 from '../../img/300dpi/main_2_300.jpg';
@@ -21,7 +16,8 @@ import ordinary_high_12 from '../../img/300dpi/ordinary_8.jpg';
 
 import main_low_1 from '../../img/72dpi/main_1_72.png';
 import main_low_0 from '../../img/72dpi/main_0_72.jpg';
-import main_low_2 from '../../img/72dpi/main_2_72.jpg';
+import main_low_2 from '../../img/72dpi/main_2_72.png';
+
 import main_low_3 from '../../img/72dpi/main_3_72.jpg';
 import main_low_4 from '../../img/72dpi/main_4_72.jpg';
 import ordinary_low_5 from '../../img/72dpi/ordinary_1.jpg';
@@ -32,8 +28,6 @@ import ordinary_low_9 from '../../img/72dpi/ordinary_5.jpg';
 import ordinary_low_10 from '../../img/72dpi/ordinary_6.jpg';
 import ordinary_low_11 from '../../img/72dpi/ordinary_7.jpg';
 import ordinary_low_12 from '../../img/72dpi/ordinary_8.jpg';
-
-// import f from '../../img/300dpi/ordinary_4.jpg';
 
 const high = [
   ordinary_high_5,
@@ -185,62 +179,8 @@ function Home() {
         alt="Home page img_0_300"
         id="home-img-0"
         className="home-page-image"
-        src={main_high_0}
+        src={main_low_2}
       />
-      {/* <img
-        // key={index}
-        alt="Home page img"
-        id={`home-img-1`}
-        className="home-page-image"
-        src={f}
-      /> */}
-      {/* <img
-        alt="Home page img_2_300"
-        id="home-img-2"
-        className="home-page-image"
-        src={ordinary_high_8}
-      /> */}
-
-      {/* <img
-        alt="Home page img_2_300"
-        id="home-img-2"
-        className="home-page-image"
-        src=""
-      />
-      <img
-        alt="Home page img_1_300"
-        id="home-img-1"
-        className="home-page-image"
-      />
-    
-      <img
-        alt="Home page img_3_300"
-        id="home-img-3"
-        className="home-page-image"
-      />
-      <img
-        alt="Home page img_4_300"
-        id="home-img-4"
-        className="home-page-image"
-      /> */}
-      {/* <img
-        alt="Home page img_0_300"
-        id="home-img-0"
-        className="home-page-image"
-        src={main_high_0}
-      /> */}
-
-      {/* {arr.imgArr.map((a, index) => {
-        return (
-          <img
-            key={index}
-            alt="Home page img"
-            id={`home-img-${index + 1}`}
-            className="home-page-image"
-            src={randomImage(arr[a])}
-          />
-        );
-      })} */}
     </div>
   );
 }
